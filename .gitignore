@@ -1,0 +1,5 @@
+app/code/vendor/
+app/code/templates_c/
+app/code/cache/
+*.swp
+.DS_Store
