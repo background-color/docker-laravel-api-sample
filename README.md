@@ -31,6 +31,7 @@ php artisan db:seed
 - status : T/F
 - results : 結果一覧
 - error : エラーの詳細の説明
+
 レスポンスの例
 ```
 {
@@ -90,7 +91,7 @@ php artisan db:seed
 
 ####  /api/graph/update
   - post
-  - head
+  - request
   ```
     post {
         'category_id' => category_id,
